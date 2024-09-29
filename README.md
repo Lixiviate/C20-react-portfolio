@@ -2,13 +2,50 @@
 
 ## Project Description
 
+This is a single-page React portfolio showcasing my work as a web developer. The portfolio is designed with a modern, responsive layout and features sections for About Me, Portfolio, Contact, and Resume. It serves as a professional portfolio to highlight my skills, projects, and experience.
+
 ## Features
+
+- **Responsive Design:** Built to work seamlessly across various screen sizes and devices.
+- **Navigation:** Intuitive navigation with links to different sections of the portfolio (About Me, Portfolio, Contact, and Resume).
+- **About Me:** A brief bio section with details about my background and expertise.
+- **Portfolio Section:** Displays examples of my work, each with links to the corresponding GitHub repositories.
+- **Resume Section:** A downloadable link to my resume.
+- **Contact Section:** Allows users to connect with me via my GitHub profile.
 
 ## Usage
 
+### Running Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Lixiviate/C20-react-portfolio.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd C20-react-portfolio
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit http://localhost:3000 to view the portfolio.
+
 ## Link to Demo + Example(s)
 
-[Link to Demo]()
+The portfolio is deployed via netlify. You can access the deployed version [HERE]().
 
 ![Example]()
 
