@@ -1,18 +1,32 @@
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        I am a passionate software engineer with a background in full-stack
+        development, specializing in building innovative and user-friendly
+        applications. With experience in frontend and backend technologies such
+        as JavaScript, React, Node.js, and Java, I thrive on creating solutions
+        that improve the user experience across web and mobile platforms. I
+        enjoy working on projects that challenge me to learn new technologies
+        and refine my skills, whether it's integrating APIs, optimizing CI/CD
+        pipelines, or enhancing mobile app functionalities.
+      </p>
+      <p>
+        I have a strong foundation in Computer Information Systems and have
+        honed my skills through hands-on projects and coding boot camps. I am
+        dedicated to continuous learning, with recent training focused on cloud
+        technologies, advanced JavaScript frameworks, and best practices in
+        software development. My approach is collaborative, detail-oriented, and
+        driven by a desire to deliver high-quality results that make a
+        difference.
+      </p>
+      <p>
+        Outside of coding, I enjoy tackling personal challenges and finding ways
+        to give back, such as participating in team-building events that support
+        causes I care about. I believe in the power of technology to drive
+        positive change, and I am excited to continue growing and contributing
+        to impactful projects.
       </p>
     </div>
   );
