@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
+
 function Footer() {
   return (
     <footer
@@ -12,26 +14,27 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        GitHub
+        <FaGithub style={{ marginRight: "5px" }} /> GitHub
       </a>
       <span style={{ margin: "0 10px" }}>|</span>
+
       <a
-        href="https://www.linkedin.com/in/"
+        href="https://www.linkedin.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        LinkedIn
+        <FaLinkedin style={{ marginRight: "5px" }} /> LinkedIn
       </a>
       <span style={{ margin: "0 10px" }}>|</span>
+
       <a
-        href="https://stackoverflow.com/users/"
+        href="https://stackoverflow.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Stack Overflow
+        <FaStackOverflow style={{ marginRight: "5px" }} /> Stack Overflow
       </a>
     </footer>
   );
 }
-
 export default Footer;
