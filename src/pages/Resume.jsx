@@ -7,7 +7,7 @@ export default function Resume() {
       <p>
         Download my{" "}
         <a href={gitResume} download>
-          resume
+          RESUME
         </a>
       </p>
       <h2>Proficiencies</h2>
