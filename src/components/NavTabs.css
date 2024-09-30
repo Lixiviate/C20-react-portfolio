@@ -1,10 +1,12 @@
 .nav-link {
   transition: all 0.2s ease;
   position: relative;
+  background-color: #d6fbf8;
 }
 
 .nav-link:hover {
   transform: translateY(-1px);
+  background-color: #d6fbee;
 }
 
 .nav-link::after {
@@ -14,7 +16,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #007bff;
+  background-color: #0400ff;
   transform: scaleX(0);
   transition: transform 0.2s ease;
 }
@@ -26,4 +28,8 @@
 
 .nav-link.active {
   font-weight: 600;
+}
+
+.nav-link.active::after {
+  background-color: red;
 }
