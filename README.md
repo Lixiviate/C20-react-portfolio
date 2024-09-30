@@ -45,7 +45,7 @@ npm run dev
 
 ## Link to Demo + Example(s)
 
-The portfolio is deployed via netlify. You can access the deployed version [HERE]().
+The portfolio is deployed via netlify. You can access the deployed version [HERE](https://lixiviate-portfolio.netlify.app/).
 
 ![Example]()
 
