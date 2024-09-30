@@ -68,14 +68,20 @@ export default function Portfolio() {
               style={{ width: "100%", height: "auto" }}
             />
             <div>
-              <a
-                href={project.deployedLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Deployed App
-              </a>
-              <span> | </span>
+              {project.deployedLink && (
+                <>
+                  <a
+                    href={project.deployedLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.deployedLink.includes("drive.google.com")
+                      ? "Demo Video"
+                      : "Deployed App"}
+                  </a>
+                  <span> | </span>
+                </>
+              )}
               <a
                 href={project.githubLink}
                 target="_blank"
