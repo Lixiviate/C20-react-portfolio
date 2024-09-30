@@ -47,9 +47,7 @@ npm run dev
 
 The portfolio is deployed via netlify. You can access the deployed version [HERE](https://lixiviate-portfolio.netlify.app/).
 
-![Example]()
-
-![Example]()
+![Example](./src/assets/exampleImage.png)
 
 ## Source Code
 
