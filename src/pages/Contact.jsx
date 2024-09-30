@@ -8,6 +8,7 @@ export default function Contact() {
   });
   const [errors, setErrors] = useState({});
   const [showPopup, setShowPopup] = useState(false);
+  const [showErrorPopup, setShowErrorPopup] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -38,13 +39,15 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add
 
-    // Show the popup
+    if (!formData.name || !formData.email || !formData.message) {
+      setShowErrorPopup(true);
+      setTimeout(() => setShowErrorPopup(false), 3000);
+      return;
+    }
+
     setShowPopup(true);
-    // Reset form fields
     setFormData({ name: "", email: "", message: "" });
-    // Hide popup after 3 seconds
     setTimeout(() => setShowPopup(false), 3000);
   };
 
@@ -130,6 +133,22 @@ export default function Contact() {
           Send
         </button>
       </form>
+      {showErrorPopup && (
+        <div
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            backgroundColor: "#FF0000",
+            color: "white",
+            padding: "15px",
+            borderRadius: "5px",
+            boxShadow: "0 2px 5px rgba(0,0,0,0.2)",
+          }}
+        >
+          Please fill out all fields before submitting.
+        </div>
+      )}
       {showPopup && (
         <div
           style={{
