@@ -128,6 +128,8 @@ export default function Contact() {
             border: "none",
             cursor: "pointer",
             marginTop: "1rem",
+            borderRadius: "4px",
+            transition: "all 0.3s ease",
           }}
         >
           Send
